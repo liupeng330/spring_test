@@ -6,4 +6,5 @@
        <context:annotation-config />
        <bean id="Actor" class="pengliu.me.Actor"/>
        <bean id="Saxphone" class="pengliu.me.Saxphone"/>
+       <bean id="Guitar" class="pengliu.me.Guitar"/>
 </beans>

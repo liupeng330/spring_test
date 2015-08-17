@@ -13,6 +13,6 @@ public class App
     {
         ApplicationContext ctx = new ClassPathXmlApplicationContext("spring_conf.xml");
         Actor actor = (Actor)ctx.getBean("Actor");
-        actor.Perfom();
+        actor.Perform();
     }
 }
