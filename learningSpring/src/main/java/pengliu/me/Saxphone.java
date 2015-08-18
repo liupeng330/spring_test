@@ -1,5 +1,7 @@
 package pengliu.me;
 
+import org.springframework.beans.factory.annotation.Qualifier;
+
 /**
  * Created by peng on 8/13/15.
  */

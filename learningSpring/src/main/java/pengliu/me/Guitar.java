@@ -5,7 +5,7 @@ import org.springframework.beans.factory.annotation.Qualifier;
 /**
  * Created by peng on 8/17/15.
  */
-@Qualifier("stringed")
+@StringedInstrument
 public class Guitar extends Instrument
 {
     public Guitar()

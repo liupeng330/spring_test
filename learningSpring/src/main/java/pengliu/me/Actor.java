@@ -19,8 +19,7 @@ public class Actor
     }
 
     @Autowired
-    //@Qualifier("Guitar")
-    @Qualifier("stringed")
+    @StringedInstrument
     public void setInstrument(Instrument instrument)
     {
         this.instrument = instrument;
